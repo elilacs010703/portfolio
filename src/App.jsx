@@ -1,11 +1,27 @@
-import Hero from "./components/Hero"
+import { Navbar } from "@/layout/Navbar";
+import { Hero } from "@/sections/Hero";
+import { About } from "@/sections/About";
+import { Techstack } from "@/sections/Techstack";
+import { Experience } from "@/sections/Experience";
+import { Testimonials } from "@/sections/Testimonials";
+import { Contact } from "@/sections/Contact";
+import { Footer } from "./layout/Footer";
 
 function App() {
   return (
-    <>
-      <Hero />
-    </>
-  )
+    <div className="min-h-screen overflow-x-hidden">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Techstack />
+        <Experience />
+        <Testimonials />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
