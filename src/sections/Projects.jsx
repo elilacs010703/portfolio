@@ -52,12 +52,12 @@ export const Projects = () => {
               className="group glass rounded-3xl overflow-hidden border border-primary/20 hover:border-primary/50 hover:shadow-[0_0_35px_rgba(32,178,166,0.18)] transition-all duration-300"
             >
               <div className="grid lg:grid-cols-[1.1fr_0.9fr] gap-0">
-                <div className="relative min-h-[260px] bg-[#08131b] flex items-center justify-center p-8">
+                <div className="relative min-h-[320px] bg-[#08131b] flex items-center justify-center p-6 md:p-8">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(32,178,166,0.22),transparent_55%)]" />
                   <img
                     src={project.image}
                     alt={`${project.title} logo`}
-                    className="relative z-10 max-h-52 w-full object-contain drop-shadow-[0_18px_40px_rgba(0,0,0,0.35)] transition-transform duration-500 group-hover:scale-105"
+                    className="relative z-10 max-h-72 w-full object-contain drop-shadow-[0_18px_40px_rgba(0,0,0,0.35)] transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
 
